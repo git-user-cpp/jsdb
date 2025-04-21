@@ -16,10 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+use rapid_naive_sql::RNSQL;
 use rapid_naive_sql::database::database::Database;
 use rapid_naive_sql::database::row::Row;
 use rapid_naive_sql::database::table::Table;
-use rapid_naive_sql::RNSQL;
 
 fn main() {
     const DB_NAME: &str = "db1";
