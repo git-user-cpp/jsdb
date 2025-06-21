@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["jsdb",[["impl&lt;Value: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a> for <a class=\"struct\" href=\"jsdb/database/database/struct.Database.html\" title=\"struct jsdb::database::database::Database\">Database</a>&lt;Value&gt;"],["impl&lt;Value: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a> for <a class=\"struct\" href=\"jsdb/database/row/struct.Row.html\" title=\"struct jsdb::database::row::Row\">Row</a>&lt;Value&gt;"],["impl&lt;Value: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a> for <a class=\"struct\" href=\"jsdb/database/table/struct.Table.html\" title=\"struct jsdb::database::table::Table\">Table</a>&lt;Value&gt;"],["impl&lt;Value: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.87.0/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a> for <a class=\"struct\" href=\"jsdb/struct.JSDB.html\" title=\"struct jsdb::JSDB\">JSDB</a>&lt;Value&gt;"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[1672]}

@@ -27,18 +27,41 @@ pub mod queries;
 use database::database::Database;
 use std::collections::HashMap;
 
-/// Creates environment for holding databases
+/// JSDB: A lightweight, high-performance database API for Rust.
+///
+/// The `JSDB` crate provides a simple, database management system designed for
+/// ease of use and flexibility. It organizes data hierarchically with environments (`JSDB`),
+/// databases (`Database`), tables (`Table`), rows (`Row`), and columns. This structure
+/// supports generic data types, allowing developers to store various kinds of values.
+///
+/// # Features
+/// - Create and manage multiple databases within a single environment.
+/// - Support for generic value types in rows.
+/// - Simple API for adding and removing databases.
+///
+/// # Usage
+/// The `JSDB` struct is the entry point for interacting with the database system. Use it to
+/// create an environment, add databases, and manage data.
 ///
 /// # Examples
-///
 /// ```
 /// use jsdb::JSDB;
 /// use jsdb::database::database::Database;
 ///
+/// // Create a new JSDB environment
 /// let mut project: JSDB<String> = JSDB::new();
+///
+/// // Create a database and add it to the environment
 /// let db1 = Database::create_database();
-/// project.add_database("database name", db1);
+/// project.add_database("my_database", db1);
+///
+/// // Remove a database
+/// project.delete_database("my_database");
 /// ```
+///
+/// # Notes
+/// - This is an in-memory database, so data is not persisted to disk.
+/// - Ensure unique database names to avoid overwriting existing databases.
 #[derive(Debug)]
 pub struct JSDB<Value> {
     pub databases: HashMap<String, Database<Value>>,
