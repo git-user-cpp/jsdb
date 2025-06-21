@@ -13,6 +13,11 @@ Simple Database implemented in Rust.
 
 ---
 
+## Documentation
+https://git-user-cpp.github.io/jsdb/jsdb/index.html
+
+---
+
 ## ⚠️ LICENSE ⚠️
 
     JSDB - Just a Simple DataBase.
