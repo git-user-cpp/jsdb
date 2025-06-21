@@ -1,26 +1,21 @@
-# RapidNaiveSQL
+# JSDB - Just Simple DataBase
 
-NaiveSQL implemented in Rust.
-Java version: https://github.com/VladimirPetrat/NaiveSQL
-
----
-
-![rnsql_logo](images/small_logo.png)
+Simple Database implemented in Rust.
 
 ---
 
-![GitLab Release](https://img.shields.io/gitlab/v/release/git-user-cpp%2Frapid_naive_sql?display_name=release&date_order_by=released_at&style=flat-square&logo=gitlab)
-![GitLab Stars](https://img.shields.io/gitlab/stars/git-user-cpp%2Frapid_naive_sql?style=flat-square&logo=gitlab)
+![GitHub Release](https://img.shields.io/github/v/release/git-user-cpp/jsdb?style=flat-square&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/git-user-cpp/jsdb?style=flat-square&logo=github)
 
-![GitLab Contributors](https://img.shields.io/gitlab/contributors/git-user-cpp%2Frapid_naive_sql?style=flat-square&logo=gitlab) ![GitLab Last Commit](https://img.shields.io/gitlab/last-commit/git-user-cpp%2Frapid_naive_sql?style=flat-square&logo=gitlab)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/git-user-cpp/jsdb?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/git-user-cpp/jsdb?style=flat-square&logo=github)
 
-![GitLab License](https://img.shields.io/gitlab/license/git-user-cpp%2Frapid_naive_sql?style=flat-square&logo=gitlab)
+![GitHub License](https://img.shields.io/github/license/git-user-cpp/jsdb?style=flat-square&logo=github)
 
 ---
 
 ## ⚠️ LICENSE ⚠️
 
-    NaiveSQL implemented in Rust.
+    JSDB - Just Simple DataBase.
     Copyright (C) 2024  Andrew Kushyk
 
     This program is free software: you can redistribute it and/or modify
