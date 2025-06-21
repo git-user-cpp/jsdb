@@ -1,5 +1,5 @@
 /*
- * NaiveSQL implemented in Rust.
+ * JSDB - Just Simple DataBase.
  * Copyright (C) 2024-2025  Andrew Kushyk
  *
  * This program is free software: you can redistribute it and/or modify

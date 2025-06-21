@@ -1,4 +1,4 @@
-# JSDB - Just Simple DataBase
+# JSDB - Just a Simple DataBase
 
 Simple Database implemented in Rust.
 
@@ -15,8 +15,8 @@ Simple Database implemented in Rust.
 
 ## ⚠️ LICENSE ⚠️
 
-    JSDB - Just Simple DataBase.
-    Copyright (C) 2024  Andrew Kushyk
+    JSDB - Just a Simple DataBase.
+    Copyright (C) 2025  Andrew Kushyk
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
