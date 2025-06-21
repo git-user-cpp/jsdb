@@ -1,6 +1,6 @@
 /*
- * NaiveSQL implemented in Rust.
- * Copyright (C) 2024  Andrew Kushyk
+ * JSDB - Just Simple DataBase.
+ * Copyright (C) 2024-2025  Andrew Kushyk
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,10 +24,10 @@ use std::collections::HashMap;
 /// # Examples
 ///
 /// ```
-/// use rapid_naive_sql::RNSQL;
-/// use rapid_naive_sql::database::table::Table;
+/// use jsdb::JSDB;
+/// use jsdb::database::table::Table;
 ///
-/// let mut project: RNSQL<String> = RNSQL::new();
+/// let mut project: JSDB<String> = JSDB::new();
 /// if let Some(database) = project.databases.get_mut("database name") {
 ///     let tb1 = Table::create_table();
 ///     database.add_table("table name", tb1);

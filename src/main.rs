@@ -1,6 +1,6 @@
 /*
- * NaiveSQL implemented in Rust.
- * Copyright (C) 2024  Andrew Kushyk
+ * JSDB - Just Simple DataBase.
+ * Copyright (C) 2024-2025  Andrew Kushyk
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,10 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-use rapid_naive_sql::database::database::Database;
-use rapid_naive_sql::database::row::Row;
-use rapid_naive_sql::database::table::Table;
-use rapid_naive_sql::RNSQL;
+use jsdb::JSDB;
+use jsdb::database::database::Database;
+use jsdb::database::row::Row;
+use jsdb::database::table::Table;
 
 fn main() {
     const DB_NAME: &str = "db1";
@@ -27,7 +27,7 @@ fn main() {
     const RW_NAME: u32 = 1;
     const CL_NAME: &str = "cl1";
 
-    let mut project = RNSQL::new();
+    let mut project = JSDB::new();
 
     println!("{:#?}\n\n", project);
 

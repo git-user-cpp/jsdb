@@ -1,6 +1,6 @@
 /*
- * NaiveSQL implemented in Rust.
- * Copyright (C) 2024  Andrew Kushyk
+ * JSDB - Just Simple DataBase.
+ * Copyright (C) 2024-2025  Andrew Kushyk
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,4 +16,6 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-pub mod parser;
+pub mod database;
+pub mod row;
+pub mod table;
