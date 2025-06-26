@@ -5,6 +5,7 @@ Simple Database implemented in Rust.
 ---
 
 ![GitHub Release](https://img.shields.io/github/v/release/git-user-cpp/jsdb?style=flat-square&logo=github)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/git-user-cpp/jsdb/rust.yml?style=flat-square&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/git-user-cpp/jsdb?style=flat-square&logo=github)
 
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/git-user-cpp/jsdb?style=flat-square&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/git-user-cpp/jsdb?style=flat-square&logo=github)
