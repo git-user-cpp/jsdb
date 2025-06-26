@@ -4,7 +4,7 @@ version = "0.3.0-alpha"
 authors = ["Andrew Kushyk <akushyk799 at gmail.com>"]
 edition = "2024"
 description = "JSDB - Just a Simple DataBase is a database API designed for high-performance data management"
-license = "GPL-3.0-or-later"
+license = "AGPL-3.0-or-later"
 repository = "https://gitlab.com/git-user-cpp/rapid_naive_sql"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
