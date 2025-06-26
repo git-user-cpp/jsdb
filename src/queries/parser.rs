@@ -15,3 +15,5 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+
+// TODO: implement parser https://github.com/git-user-cpp/jsdb/issues/22
